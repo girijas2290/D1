@@ -1,0 +1,28 @@
+.two__rows
+{
+ display: flex;
+ flex-direction:row ;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.two__rows >p
+{
+    flex: 1;    
+    padding: 0rem 2rem;
+}
+
+
+.two__cols
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two__cols >p
+{
+    flex: 1;
+    padding: 0rem  2rem;
+}
